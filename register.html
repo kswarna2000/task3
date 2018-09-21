@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="logo.png" height="30px"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="task2.html">Home</a></li>
+     
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="register.html"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <h2 style="color:#734d26;text-align:center;"><b>REGISTER</b></h2>
+  <form action="connect3.php" name="registration" method="post">
+<div class="form-group">
+  <label for="usr">First Name:</label>
+  <input type="text" name="fname" class="form-control" placeholder="Enter your first name" id="usr">
+</div>
+<div class="form-group">
+  <label for="usr">Last Name:</label>
+  <input type="text" class="form-control" name="lname"placeholder="Enter your last name" id="usr1">
+</div>
+<div class="form-group">
+  <label for="usr">Mobile no:</label>
+  <input type="text" name="mobile" class="form-control" placeholder="Enter your mobile no"id="usr2">
+</div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" class="form-control" placeholder="Enter email" size="20"name="email">
+</div>
+ <div class="form-group">
+  <label for="comment">About:</label>
+  <textarea  name="about"rows="5" class="form-control" placeholder="Describe youself briefly" id="comment"></textarea>
+</div> 
+<button type="submit"value="register" name="register" class="btn btn-success">Register</button>
+</form>
+</div>
+</body>
+</html>
