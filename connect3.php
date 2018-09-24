@@ -20,7 +20,7 @@ $sql = "INSERT INTO list(fname,lname,mobile,email,about) VALUES ('$fname','$lnam
 if(mysqli_query($link, $sql) and !empty($_POST["fname"])and !empty($_POST["lname"]) and!empty($_POST["mobile"]) and !empty($_POST["email"])and!empty($_POST["about"]) ){
     include("success.html");
 } else{
-    include("fail1.html");
+    include("fail.html");
 }
  
 // Close connection
