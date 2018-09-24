@@ -18,7 +18,7 @@ if ( mysqli_num_rows($result) > 0){
 	include("leaderboard.html");
 }
  else{
-   include("fail.html");
+   include("fail1.html");
 
 
 }
